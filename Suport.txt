@@ -1,3 +1,33 @@
 // Node 
 // Run A JS file - node filename
 // 
+
+==================== Git SignIn commands =============
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --global user.name
+git config --global user.email
+
+git pull "https://github.com/learnautomation1604-cyber/Core_JS_AR.git"
+
+
+========================Git Commands=====================================
+
+git --version
+git config
+git init
+git status
+git add
+git commit
+git log
+git branch
+git switch
+git remote
+git push
+git pull
+git clone
+git merge
+git stash
+git revert
+========================================================================
