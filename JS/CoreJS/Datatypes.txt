@@ -1,0 +1,6 @@
+Primitive Data Tpes - String, Number, BigInt, Boolean, Undefined, Null, Symbol (Basic Building blocks of data)
+Non Primitive Data Types - Object - (Object, Array, Function, Date, Map , Set)
+
+Primitive - Simple Value, Immutable, Copies as avalue
+and
+Non Primitive - Object/Complex Value, Object can be muted, Variables hold reference to objects

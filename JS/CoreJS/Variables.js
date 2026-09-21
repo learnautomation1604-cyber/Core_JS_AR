@@ -14,3 +14,5 @@ console.log("Variable declaration : y : "+y);
 
 console.log("I am checking the type of data that i recently declared for y: "+typeof y);
 
+
+
