@@ -2,6 +2,17 @@
 // Run A JS file - node filename
 // 
 
+<<<<<<< HEAD
+Version Control:
+Read Access:
+Prequesites - System Configuration, Project Configuration
+1. Clone - How to clone a Repo (Source Repo - Url - Https) - Read Access
+Write Access:
+1. Create your Own Branch Based on the Source Branch(Possibly - Main Branch Going to be your Source Branch)
+2. Fork Creation - How to create a fork (Who provided the url to clone that person going to be a Source of your forked Repo)
+3. Pull Request Creation - Once you commited the code pull request from GitHub
+4. Merge Request Creation - Once pull request created Need to Create the merge Request to Update main branch with your changes
+=======
 ==================== Git SignIn commands =============
 
 git config --global user.name "Your Name"
@@ -31,3 +42,4 @@ git stash
 git revert
 ========================================================================
 Simple Arcitecture - Source Control tool - GitHub + VS code + Git - Version Controle tool
+>>>>>>> 28b9f8a19be0a703afde48ddda5fbed9ba804d09
