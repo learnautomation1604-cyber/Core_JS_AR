@@ -52,4 +52,55 @@ console.log(sym1.toString()
 console.log("Are sym1 and sym2 equal? " + (sym1 === sym2)); // false
 
 
+// ==== Non - Prmitive Data Types ====== //
+
+// 1. Object:
+
+var x =10;
+
+
+var arry = [10, 20, 30]
+var array = ["Apple", "Banana", "Cherry"];
+
+
+var arry = ["Apple", 10, true, null, undefined, {name: "John"}, [1, 2, 3]];
+
+console.log(arry)
+console.log(arry[0])
+console.log(arry[1])
+console.log(arry[2])
+console.log(arry[3])
+console.log(arry[4])
+console.log(arry[5])
+console.log(arry[6])
+
+// console.log(arry[0]);
+// console.log(arry[1]);
+// console.log(arry[2]);
+
+// var arry = new Array(89, 34, 21);
+// console.log(arry[0]);
+// console.log(arry[1]);
+// console.log(arry[2]);
+
+
+var person = {
+
+    name: "John",
+    age: 30,
+    isStudent: true,
+    marks:[10, 30, 50]
+}
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.isStudent);
+console.log(person.marks);
+
+function addition(){
+
+
+
+}
+
 

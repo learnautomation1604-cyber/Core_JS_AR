@@ -16,3 +16,6 @@ console.log("I am checking the type of data that i recently declared for y: "+ty
 
 
 
+
+
+
