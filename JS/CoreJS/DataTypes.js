@@ -83,13 +83,30 @@ console.log(arry[6])
 // console.log(arry[1]);
 // console.log(arry[2]);
 
+// Objects are collections of key-value pairs. Each key is a string (or Symbol), and each value can be any data type, including other objects.
 
 var person = {
 
     name: "John",
     age: 30,
     isStudent: true,
-    marks:[10, 30, 50]
+    marks:[10, 30, 50],
+    parentsdetails:{
+        mother: "Jane",
+        father: "Doe",
+        brother: "Mike"
+    },
+    fees:{
+        term1:{
+            amount: 1000,
+            dueDate: "2023-01-01"
+        },
+        term2:{
+            amount: 2000,
+            dueDate: "2023-06-01"
+        }
+
+    }
 }
 
 console.log(person.name);
@@ -97,10 +114,62 @@ console.log(person.age);
 console.log(person.isStudent);
 console.log(person.marks);
 
+// 2. Function:
+
 function addition(){
+    return 10 + 20;
+}
+
+console.log("Addition Return Value Of Function: " + addition());
+
+function add(a, b){
+    return a + b;
+}
+
+
+var x = function add(){
+    var c = 10-5;
+    return c;
+}
+
+console.log(add()); // Output: 100
+
+// console.log("Addition Return Value Of Function: " + add(90,20));
+
+// console.log("Addition Return Value Of Function: " + add(90,20));
+
+// Arrow function syntx
+async ()=>{
+
+}
+// Arrow function
+
+var sub = () => {
+    return 10 - 5;
+}
+console.log("Subtraction Return Value Of Function: " + sub());
+
+
+
+
+
+// Asyn function with 1000 milli seconds delay for executing the code 
+var add = async () => {
+
+    
+    await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve();
+        }, 10000);
+    })
+    
+
+    return 100 + 20;
 
 
 
 }
+
+console.log("Addition Return Value Of Function: " + add());
 
 
