@@ -1,0 +1,4 @@
+// Variables
+// data types
+// conditional statements 
+// loopings 
