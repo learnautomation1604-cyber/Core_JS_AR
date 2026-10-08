@@ -120,21 +120,60 @@ console.log(result);
 // * switch statement *
 
 var day = 1;
-
 switch(day){
-
     case 1:
         console.log("Today is Monday");
         break;
     case 2:
         console.log("Today is Tuesday");
         break;
-
     case 3:
         console.log("Today is Wednesday");
         break;
+}
 
+var browser = "chrome";
+var env = "production";
 
+switch(env){
 
+    case "production":
+        console.log("You are in the production environment");
 
+    switch(browser){
+        case "chrome":
+            console.log("You are using Chrome browser");
+            break;
+        case "firefox":
+            console.log("You are using Firefox browser");
+            break;
+        case "safari":
+            console.log("You are using Safari browser");
+            break;
+        default:
+            console.log("You are using an unknown browser");    
+        }
+            break;
+
+    case "development":
+
+        console.log("You are in the development environment");
+
+    switch(browser){
+        case "chrome":
+            console.log("You are using Chrome browser");
+            break;
+        case "firefox":
+            console.log("You are using Firefox browser");
+            break;
+        case "safari":
+            console.log("You are using Safari browser");
+            break;
+        default:
+            console.log("You are using an unknown browser");
+        }
+            break;
+
+    default:
+        console.log("You are in an unknown environment");
 }
